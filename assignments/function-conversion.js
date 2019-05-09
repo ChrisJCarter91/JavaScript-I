@@ -5,20 +5,42 @@
 // };
 // myFunction();
 
+const myFunction = (`Function was invoked`);
+
+console.log(myFunction);
+
 // let anotherFunction = function (param) {
 //   return param;
 // };
 // anotherFunction("Example");
+
+const anotherFunction = (a) => {
+    return a;
+}
+
+console.log(anotherFunction(`Example`));
 
 // let add = function (param1, param2) {
 //   return param1 + param2;
 // };
 // add(1,2);
 
+const add = (a, b) => {
+    return a + b;
+}
+
+console.log(add(1,2));
+
 // let subtract = function (param1, param2) {
 //   return param1 - param2;
 // };
 // subtract(1,2);
+
+const subtract = (a, b) => {
+    return a - b;
+}
+
+console.log(subtract(1,2));
 
 
 // Stretch
